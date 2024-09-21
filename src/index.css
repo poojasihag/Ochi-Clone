@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* font-family:'Founders_Grotesk_X-Condensed' ; */
+    /* @font-face {
+        font-family: '"Founders Grotesk X-Condensed"';
+        src: url('../public/font/FoundersGrotesk-Bold.otf');
+    } */
+
+    /* @font-face {
+        font-family: NeueMontreal;
+        src: url(../public/fonts/NeueMontreal-Regular.woff) format("woff"),url(../fonts/NeueMontreal-Regular.woff2) format("woff2");
+        font-display: swap;
+        font-weight: 400;
+        font-style: normal
+    } */
+    
+    @font-face {
+        font-family: FoundersGrotesk;
+        src: url(../public/fonts/FoundersGrotesk-Semibold.off);
+        font-display: swap;
+        font-weight: 600;
+        font-style: normal
+    }
